@@ -1,4 +1,4 @@
-# ?ToothGrowth, shows description of dataset #nolint
+# ?ToothGrowth, shows description of dataset # nolint
 dataset <- data.frame(ToothGrowth)
 print(dataset)
 
