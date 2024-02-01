@@ -39,7 +39,7 @@ summary(results_twoway)
 
 f_statistic <- ((205.4 + 2425.4 + 108.3) / 5) / 13.2
 # ((sum sq of supp + sum sq of as.factor(dose) +
-# sum sq of supp:as.factor(dose)) / sum of df) / mean sq of residual
+# sum sq of supp:as.factor(dose) / sum of df) / mean sq of residual
 
 # pf(test statistic, dfnum, dfden, lower.tail = FALSE) # nolint
 pf(f_statistic, 5, 54, lower.tail = FALSE)
