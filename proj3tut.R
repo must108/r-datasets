@@ -18,7 +18,7 @@ print(shapiro.test(college_model$residuals))
 
 confint(college_model, level = 0.95)
 
-# predict the graduation rateo f a college with S.F.Ratio = 20
+# predict the graduation ratio f a college with S.F.Ratio = 20
 # Outstate = 10000, nolint
 # Top10perc = 50%
 # PhD = 80%
